@@ -27,6 +27,8 @@ skill.innerHTML=Skills
 }
 experience.length==0?document.getElementById("EXPERIENCE").style.display="none":null
 }
+
+
 skill && getSkill()
 async function foo(){
     let {projects}= await data()
@@ -82,13 +84,23 @@ async function getExprience(){
 }
 }
 explist && getExprience()
-//  let config= data()
-//  console.log(config)
-// .then(res=>res.json())
-// .then(data=>{ let Data=data
-    
-// })
-// console.log(Data)    
 
- 
+ let dark=false
+document.querySelector('button').addEventListener('click', (e) => {
+
+
+
+
+    e.currentTarget.firstElementChild.classList.toggle('dark-mode-toggle__icon--moon');
+    document.body.classList.toggle('theme--dark');
+    document.getElementsByTagName('header')[0].classList.toggle('theme--dark');
+    document.getElementsByClassName('profile-des')[0].classList.toggle('theme--light');
+   let s= document.getElementsByTagName('a');
+  
+   for (let index = 0; index < s.length; index++) {
+   s[index].classList.toggle('theme--light');
     
+   
+}
+   
+  });

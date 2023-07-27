@@ -3,27 +3,21 @@
         {
             "Id": 1,
             "Name": "Movie searching app",
-            "Description": "A React redux application that allows user to search movie and view the selected movie information,redux-router helps to nevigate through the app",
-            "Tech_Stack": " reactjs,redux-router",
+            "Description": "A React application that allows user to search movie and view the selected movie information,react-router helps to nevigate through the app",
+            "Tech_Stack": " reactjs,react-router",
             "Code_URL": "https://github.com/tarun730/movie-app",
             "Live_URL": "https://movie-searching-app02.netlify.app/"
-        },
+        }
+        ,
         {
             "Id": 2,
-            "Name": "Moviess searching app",
-            "Description": "A React redux application that allows user to search movie and view the selected movie information,redux-router helps to nevigate through the app",
-            "Tech_Stack": " reactjs,redux-router",
-            "Code_URL": "Code_URL",
-            "Live_URL": "Live_URL"
-        },
-        {
-            "Id": 3,
-            "Name": "Movie searching app",
-            "Description": "A React redux application that allows user to search movie and view the selected movie information,redux-router helps to nevigate through the app",
-            "Tech_Stack": " reactjs,redux-router",
-            "Code_URL": "Code_URL",
-            "Live_URL": "Live_URL"
+            "Name": "Landing page",
+            "Description": "A landing page build in React",
+            "Tech_Stack": " reactjs,react-router",
+            "Code_URL": "https://github.com/tarun730/landing-page-react.git",
+            "Live_URL": "https://react-landing-page11.netlify.app/"
         }
+
     ],
     "Skill": [
         {
