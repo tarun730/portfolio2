@@ -35,17 +35,11 @@
   padding-top: 5em;
 }
 
-/* body{
-    height: 100%;
-    padding-left: 5em;
-    padding-right: 5em;
-    background-color: #0b053b;
-} */
 header {
   z-index: 99;
   width: 100%;
   position: fixed;
-
+justify-content: space-around;
   display: flex;
   font-size: 22px;
   align-items: center;
@@ -56,13 +50,13 @@ header {
   background-color: rgb(240 240 240);
 }
 
-.underline {
+/* .underline {
   z-index: 2;
   width: 70%;
   border-bottom: var(--primary) 2px solid;
   height: 1px;
-  /* background-color: antiquevar(--primary); */
-}
+  background-color: antiquevar(--primary);
+} */
 
 .circel {
 
@@ -73,7 +67,7 @@ header {
   border-radius: 50%;
   /* background-color: aquamarine; */
   /* fill: none; */
-  border: 3px solid var(--primary);
+  /* border: 3px solid var(--primary); */
 }
 
 .option,
@@ -235,24 +229,7 @@ span {
 
 }
 
-/* .cu-item-hidden{
-  display: none;
-  }
-.cu-item-visible{
-  display: block;
-  }  */
-/* .one,
-.three {
-    height: 12em;
-    width: 17em;
 
-} */
-
-/* .two {
-  object-fit: cover;
-  height: 17em;
-  width: 21em;
-} */
 
 
 #explist {
@@ -316,7 +293,22 @@ span {
 
 }
 
-.fa-brands {
+.contact>a:first-child:hover{
+  color:var(--trinary);
+
+}
+.contact>a:nth-child(2):hover{
+  color: var(--trinary);
+}
+.contact>a:nth-child(3):hover{
+  color: var(--trinary);
+}
+.contact>a:nth-child(4):hover{
+  color: var(--trinary);
+}
+
+
+.fa-brands,.fa-regular {
   font-size: 3em;
 }
 
@@ -413,10 +405,7 @@ h4 {
   display: block;
 }
 
-/* #flip {
-  height:50px;
-  overflow:hidden;
-} */
+
 
 #flip>div>div {
   color: #fff;
@@ -537,14 +526,7 @@ h4 {
 
 
 
-/* body {
-  background: var(--light);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color .2s ease-in-out;
-} */
+
 /* dark mode animtion end */
 
 .button {
@@ -618,8 +600,7 @@ h4 {
 
 /*HOVER*/
 .button:hover{
-  /* padding: 30px 0px;
-  margin: 0; */
+
       height: 127px;
 }
 .button:hover .bottom {
